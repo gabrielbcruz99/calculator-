@@ -1,6 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import Button from './src/components/Button';
 import Display from './src/components/Display';
 
