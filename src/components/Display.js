@@ -18,7 +18,8 @@ const styles = StyleSheet.create({
 export default props => {
     return(
     <View style={styles.display}>
-        <Text style={styles.displayValue} numberOfLines={1}>{props.value}</Text>
+        <Text style={styles.displayValue} 
+            numberOfLines={1}>{props.value}</Text>
     </View>
     );
 }
